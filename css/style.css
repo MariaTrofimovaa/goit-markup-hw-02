@@ -14,7 +14,7 @@
 
 :root {
   --primary-text-color: #212121;
-  --secondary-text-color: #rgba(255, 255, 255, 0.6);
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
   --paragraph-color: #757575;
   --accent-color: #2196f3;
   --white-color: #ffffff;
@@ -78,7 +78,7 @@
 /* Контакты */
 .contacts .link {
   text-decoration: none;
-  color: var(--primary-text-color);
+  color: var(--paragraph-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
@@ -98,6 +98,17 @@
   background-color: var(--accent-background-color);
   letter-spacing: 0.06em;
 }
+
+.filters {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6x;
+  letter-spacing: 0.03em;
+}
+
 .hero-title {
   color: var(--white-color);
   font-weight: 900;
@@ -181,10 +192,13 @@
 
 .fixed-address {
   color: var(--white-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .contacts-footer {
-  color: var(--paragraph-color);
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
 
@@ -192,6 +206,13 @@
 .filters-list {
   background-color: var(--secondary-background-color);
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filters-list:hover,
